@@ -1,0 +1,48 @@
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(104,205,213);
+    font-size: 62.5%;
+    color: rgb(255,255,255);
+}
+.header{
+    padding: 20px;
+}
+.back{
+    height: 54px;
+}
+.img{
+    height: 70px;
+}
+.logo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    height: 70px;
+}
+.main{
+    font-family: 宋体;
+    margin-bottom: 170px;
+    font-size: 30px;
+    height: 100px;
+    padding:0 15%;
+}
+.left{
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+}
+.right{
+    float: right;
+    margin-right: 20%;
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+}
+.img-bottom{
+    height: 80px;
+}
