@@ -1,0 +1,184 @@
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    line-height: 100px;
+    background-color: rgb(90,192,206);
+}
+.header-left{
+    height: 37px;
+    margin: 12px 0 30px 5%;
+    float: left;
+    width: 10%;
+}
+.header-center{
+    font-size: 36px;
+    text-align: center;
+    width: 70%;
+    float: left;
+}
+footer{
+    height: 128px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footer-left{
+    height: 88px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 34px;
+    border:3px solid rgb(90,192,206);
+    text-align: center;
+    position: absolute;
+    width: 43%;
+    margin-left: 5%;
+}
+.footer-right {
+    height: 88px;
+    background-color: rgb(90,192,206);
+    font-size: 34px;
+    color: white;
+    border-radius: 15px;
+    border:3px solid rgb(90,192,206);
+    text-align: center;
+    position: absolute;
+    margin-left: 52%;
+    width: 43%;
+}
+.footer-text{
+    height: 34px;
+    line-height: 34px;
+    margin: 27px auto;
+}
+.top{
+    margin-top: 100px;
+    height: 300px;
+    background: url("image/background.png") no-repeat;
+    background-size: cover;
+    color: white;
+}
+.portrait{
+    float: left;
+    height: 170px;
+    margin: 65px 0 65px 5%;
+}
+.message{
+    margin: 110px 0 0 5%;
+    height: 80px;
+    float: left;
+}
+.message-top{
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 36px;
+    margin-right: 30px;
+}
+.age{
+    font-size: 28px;
+}
+.site{
+    font-size: 20px;
+    margin-left: 40px;
+    position: absolute;
+}
+.img {
+    float: left;
+}
+.skill{
+    height: 100px;
+    border:solid rgb(230,230,230);
+    border-width: 0 0 1px 0;
+    font-size: 32px;
+    line-height: 50px;
+}
+.border{
+    position: absolute;
+    height: 30px;
+    margin: 40px 0 40px 5%;
+    border: solid rgb(90,192,206);
+    border-width: 0 0 0 3px;
+}
+.new{
+    position: absolute;
+    height: 32px;
+    line-height: 32px;
+    margin: 34px 0 34px 10%;
+}
+.require{
+    height: 100px;
+    margin: 0 3% ;
+    border: solid rgb(230,230,230);
+    border-width: 0 0 1px 0;
+}
+.label{
+    position: absolute;
+    height: 50px;
+    font-size: 32px;
+    margin: 25px 0 25px 5%;
+}
+
+.warp{
+    height: 100px;
+    margin: 0 3% ;
+    border:solid #e1e5e7;
+    border-width: 0 0 1px 0;
+}
+.left{
+    position: absolute;
+    height: 50px;
+    margin:  25px 0;
+    border-style:solid;
+    border-color: #e1e5e7;
+    border-width: 0 1px 0 0;
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: #999999;
+}
+.right{
+    margin: 25px 0 25px 30% ;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    color: #333333;
+}
+.red{
+    color: #e26163;
+}
+.introduce{
+    min-height: 100px;
+    border:solid #e1e5e7;
+    border-width: 0 0 1px 0;
+}
+.introduce-left{
+    position: absolute;
+    height: 50px;
+    margin: 25px 3%;
+    border-style:solid;
+    border-color: #e1e5e7;
+    border-width: 0 1px 0 0;
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: #999999;
+}
+.introduce-right{
+    margin-left: 33% ;
+    padding-top:25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    min-height: 50px;
+    color: #333333;
+}
