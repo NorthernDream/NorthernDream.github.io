@@ -90,7 +90,6 @@ footer{
 .site{
     font-size: 20px;
     margin-left: 40px;
-    position: absolute;
 }
 .img {
     float: left;
@@ -103,26 +102,24 @@ footer{
     line-height: 50px;
 }
 .border{
-    position: absolute;
+    float: left;
     height: 30px;
     margin: 40px 0 40px 5%;
     border: solid rgb(90,192,206);
     border-width: 0 0 0 3px;
 }
 .new{
-    position: absolute;
+    float: left;
     height: 32px;
     line-height: 32px;
-    margin: 34px 0 34px 10%;
+    margin: 34px 0 34px 5%;
 }
 .require{
     height: 100px;
     margin: 0 3% ;
-    border: solid rgb(230,230,230);
-    border-width: 0 0 1px 0;
 }
 .label{
-    position: absolute;
+    float: left;
     height: 50px;
     font-size: 32px;
     margin: 25px 0 25px 5%;
@@ -130,12 +127,13 @@ footer{
 
 .warp{
     height: 100px;
-    margin: 0 3% ;
+    width: 100%;
+    margin: 0 0 0 3% ;
     border:solid #e1e5e7;
     border-width: 0 0 1px 0;
 }
 .left{
-    position: absolute;
+    float: left;
     height: 50px;
     margin:  25px 0;
     border-style:solid;
@@ -147,8 +145,8 @@ footer{
     color: #999999;
 }
 .right{
-    margin: 25px 0 25px 30% ;
-    position: absolute;
+    margin: 25px 0 25px 5% ;
+    float: left;
     text-align: center;
     font-size: 30px;
     height: 50px;
@@ -158,14 +156,17 @@ footer{
     color: #e26163;
 }
 .introduce{
+    display: flex;
+    align-items:center;
+    width: 100%;
     min-height: 100px;
     border:solid #e1e5e7;
     border-width: 0 0 1px 0;
 }
 .introduce-left{
-    position: absolute;
+    float: left;
     height: 50px;
-    margin: 25px 3%;
+    margin: 25px 0 25px 3%;
     border-style:solid;
     border-color: #e1e5e7;
     border-width: 0 1px 0 0;
@@ -175,10 +176,11 @@ footer{
     color: #999999;
 }
 .introduce-right{
-    margin-left: 33% ;
+    margin-left: 3% ;
     padding-top:25px;
     padding-bottom: 25px;
     font-size: 30px;
     min-height: 50px;
     color: #333333;
+    width: 65%;
 }
