@@ -148,7 +148,7 @@ footer{
 .left{
     float: left;
     min-height: 50px;
-    margin: 25px 0 25px 3%;
+    margin: 25px 0 25px 0;
     border-style:solid;
     border-color: #e1e5e7;
     border-width: 0 1px 0 0;
