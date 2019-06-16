@@ -1,136 +1,159 @@
 body{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #ffffff;
 }
 header{
-    height: 100px;
+    height: 50px;
     background-color: #5fc0cd;
 }
-.center-left{
-    overflow: hidden;
-    min-height: 34px;
-    font-size: 34px;
-    line-height: 34px;
-    margin: 15px 0;
-    padding: 17px 0;
-    height: 70px;
+.header-center{
+    margin: 7px 0;
+    padding: 0;
+    height: 35px;
     background-color: #55a8b3;
     color: #fff;
     border: #55a8b3 1px solid;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.center-left{
+    font-size: 17px;
+    line-height: 17px;
+    padding: 8px 0;
+    height: 35px;
+    background-color: #55a8b3;
+    color: #fff;
+    border: #55a8b3 1px solid;
+    border-radius: 5px;
 }
 .center-right{
-    overflow: hidden;
-    min-height: 34px;
-    font-size: 34px;
-    line-height: 34px;
-    padding: 17px 0;
-    margin: 15px 0;
-    height: 70px;
+    font-size: 17px;
+    line-height: 17px;
+    padding: 8px 0;
+    height: 35px;
     background-color: #fff;
     color: #5fc0cd;
     border: #fff 1px solid;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .header-right{
     float: right;
-    margin: 25px 5% 25px 0;
+    margin: 12px 5% 12px 0;
     background: url("image/sprite.png") no-repeat;
-    background-position: -100px -100px;
-    width: 50px;
-    height: 50px;
+    background-position: -50px -50px;
+    width: 25px;
+    height: 25px;
 }
 footer{
-    height: 100px;
-    background-color: #e1e1e1;
-    font-size: 20px;
+    height: 50px;
+    background-color: #f8fafb;
+    font-size: 10px;
 }
 .footer-center{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     background: url("image/sprite.png") no-repeat;
 }
 .footer-left{
-    margin-top: 15px;
-    width: 50px;
-    height: 50px;
+    margin-top: 7px;
+    width: 25px;
+    height: 25px;
     background: url("image/sprite.png") no-repeat;
-    background-position: -100px 0;
+    background-position: -50px 0;
 }
 .footer-right{
-    margin-top: 15px;
-    width: 50px;
-    height: 50px;
+    margin-top: 7px;
+    width: 25px;
+    height: 25px;
     background: url("image/sprite.png") no-repeat;
-    background-position: -100px -50px;
+    background-position: -50px -25px;
 }
 .top{
-    height: 85px;
-    font-size: 28px;
+    margin: 5px;
+    height: 40px;
+    line-height: 14px;
+    font-size: 14px;
     color: #999;
-    padding-top: 25px;
-
+    border: solid #e1e5e7;
+    border-width: 0 0 1px 0;
 }
-
+.name{
+    width: 100%;
+}
+.bea{
+    border: solid #e1e5e7;
+    border-width: 0 1px 0 0;
+    border-radius: 0;
+}
+.tea{
+    padding: 0;
+    margin: 0;
+}
 .wrap{
-    min-height: 180px;
-    overflow: hidden;
-    padding-left: 5%;
-    margin-top: 30px;
 
+    height: 85px;
+    margin-top: 15px;
+    padding-left: 5%;
+    border: solid #e1e5e7;
+    border-width: 0 0 1px 0;
 }
 .box{
-    min-height: 30px;
-    display: flex;
-    align-items:center;
-    margin-bottom: 20px;
+    height: 15px;
+    margin-bottom: 10px;
 }
 .date{
-    height: 30px;
-    width: 30px;
+    display: inline-block;
+    padding: 0;
+    height: 15px;
+    width: 15px;
     background: url("image/sprite.png") no-repeat;
-    background-position: -30px -100px;
+    background-position: -15px -50px;
 }
 .site{
-    height: 30px;
-    width: 30px;
+    display: inline-block;
+    padding: 0;
+    height: 15px;
+    width: 15px;
     background: url("image/sprite.png") no-repeat;
-    background-position: -0 -100px;
+    background-position: -0 -50px;
 }
 .box1{
-    display: flex;
-    align-items:center;
-    min-height: 26px;
-    font-size: 26px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    display: inline-block;
+    padding: 0;
+    height: 15px;
+    font-size: 13px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 15px;
     color: #999;
 }
 .box2{
-    display: flex;
-    align-items:center;
-    min-height: 28px;
-    font-size: 28px;
+    display: inline-block;
+    padding: 0;
+    height: 15px;
+    font-size: 14px;
     margin-bottom: 1px;
     margin-top: 1px;
     margin-left: 30px;
 }
 .box3{
-    display: flex;
-    align-items:center;
-    margin-bottom: 85px;
-    margin-top: 75px;
-    min-height: 30px;
-    font-size: 30px;
+    display: inline-block;
+    padding: 0;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    height: 20px;
+    font-size: 14px;
     color: #e63b0e;
 }
 .font{
-    display: flex;
-    align-items:center;
-    margin-left: 10%;
-    height: 33px;
-    width: 20px;
+    display: inline-block;
+    margin: 28px 10% 22px 10%;
+    height: 20px;
+    width: 10px;
     background: url("image/sprite.png") no-repeat;
-    background-position: -60px -100px;
+    background-position: -30px -50px;
 }
