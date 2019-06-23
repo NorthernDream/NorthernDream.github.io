@@ -17,7 +17,21 @@
         font-size: 16px;
         color: #fff;
     }
-
+    .list{
+        margin-top: 12px;
+        height: 25px;
+        width: 25px;
+        background: url("image/sprite.png") no-repeat;
+        background-position: -0 -0;
+    }
+    .back{
+        margin-top: 12px;
+        margin-left: 65%;
+        height: 25px;
+        width: 25px;
+        background: url("image/sprite.png") no-repeat;
+        background-position: -0 -25px;
+    }
     .header-center{
         line-height: 16px;
         height: 16px;
@@ -37,13 +51,40 @@
         padding-bottom: 11px;
         margin: 20px 10% 30px 10%;
     }
+    .top{
+
+    }
+    .first{
+        background-color: #b9e9f5;
+        height: 40px;
+        font-size: 13px;
+        padding-left: 5%
+    }
+    .text{
+        height: 13px;
+        margin-top: 13px;
+    }
+    .play{
+        margin-top: 5px;
+        margin-left: 65%;
+        height: 30px;
+        width: 26px;
+        background: url("image/sprite.png") no-repeat;
+        background-position: -40px 0;
+    }
+    .dot{
+        height: 15px;
+        width: 15px;
+        background: url("image/sprite.png") no-repeat;
+        background-position: -25px -60px;
+    }
 </style>
 </head>
 <body>
 <header class="navbar  navbar-fixed-top">
-    <div class="col-xs-4 list"></div>
+    <div class="col-xs-4 "><div class="list"></div> </div>
     <div class="col-xs-4 text-center header-center">投票</div>
-    <div class="col-xs-4 back"></div>
+    <div class="col-xs-4 "><div class="back"></div> </div>
 </header>
 <footer class="navbar  navbar-fixed-bottom">
     <div class="container text-center footer-center">
@@ -52,10 +93,18 @@
 </footer>
 <mian>
     <div class="top">
-
+        <div class="first">
+            <div class="col-xs-8 text-left"><div class="text"> 发言讨论结束，大家请投票</div></div>
+            <div class="col-xs-4 "><div class="play"></div></div>
+        </div>
+        <div class="two">
+            <div class="dot"></div>
+        </div>
     </div>
     <div class="wrap">
+        <div class="box">
 
+        </div>
     </div>
 </mian>
 
