@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
     body{
+        background-color: #29bde0;
         padding-top: 50px;
         padding-bottom: 100px;
     }
@@ -72,11 +73,33 @@
         background: url("image/sprite.png") no-repeat;
         background-position: -40px 0;
     }
+    .two{
+        height: 42px;
+        line-height: 20px;
+        color: #fff;
+    }
     .dot{
-        height: 15px;
-        width: 15px;
+        margin-left: 7%;
+        height: 8px;
+        width: 8px;
         background: url("image/sprite.png") no-repeat;
         background-position: -25px -60px;
+    }
+    .hint{
+        margin-left: 7%;
+        font-size: 6px;
+    }
+    .wrap{
+
+    }
+    .box{
+        margin: 6%;
+        display: inline-block;
+        background-color: #fbb435;
+        width: 20%;
+        height: 64px;
+        border: #fff solid 2px;
+
     }
 </style>
 </head>
@@ -87,21 +110,28 @@
     <div class="col-xs-4 "><div class="back"></div> </div>
 </header>
 <footer class="navbar  navbar-fixed-bottom">
-    <div class="container text-center footer-center">
+    <div class="text-center footer-center">
         投死
     </div>
 </footer>
 <mian>
     <div class="top">
-        <div class="first">
+        <div class="first ">
             <div class="col-xs-8 text-left"><div class="text"> 发言讨论结束，大家请投票</div></div>
             <div class="col-xs-4 "><div class="play"></div></div>
         </div>
         <div class="two">
-            <div class="dot"></div>
+            <div class="col-xs-12 dot"></div>
+            <div class="col-xs-12 hint">点击得票数最多人的头像</div>
         </div>
     </div>
     <div class="wrap">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
         <div class="box">
 
         </div>
