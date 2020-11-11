@@ -2,8 +2,8 @@
 
 
 
-#git commit规范
-##Type 的类别说明
+# git commit规范
+## Type 的类别说明
 
 feat: 添加新特性
 
